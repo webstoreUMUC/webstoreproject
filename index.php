@@ -16,15 +16,15 @@
     <h1>Menu</h1>
     <ul>
         <li>
-            <a href="gen3marketAdmin">FoodBank Admin</a>
+            <a href="gen3marketAdmin">Gen3market Admin</a>
         </li>
         <li>
-            <a href="gen3marketCustomer">FoodBank Customer</a>
+            <a href="gen3marketCustomer">Gen3market Customer</a>
         </li>
     </ul>
 </main>
 <footer>
-    <br><p>&copy; <?php echo date("Y"); ?> FoodBank</p>
+    <br><p>&copy; <?php echo date("Y"); ?> Gen3market</p>
 </footer>
 </body>
 </html>
