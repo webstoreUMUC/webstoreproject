@@ -1,6 +1,6 @@
 <?php
 
-$dsn = 'mysql:host=localhost;dbname=foodbank'; // data source name
+$dsn = 'mysql:host=www.gen3market.com;dbname="gen3market"'; // data source name
 $username = '';
 $password = '';
 
