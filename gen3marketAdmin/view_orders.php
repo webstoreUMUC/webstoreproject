@@ -41,7 +41,7 @@ $orders->execute();
 </head>
 <body>
 <main>
-    <header><h1>FoodBank</h1></header>
+    <header><h1>Gen3market</h1></header>
     <div id="logo">
         <img id="fb" src="../images/foodbank.png">
     </div>
@@ -59,7 +59,7 @@ $orders->execute();
 <section><p><a href="index.php">Back</a></p>
 </section>
     <footer>
-        <br><p>&copy; <?php echo date("Y"); ?> FoodBank</p>
+        <br><p>&copy; <?php echo date("Y"); ?> Gen3market</p>
     </footer>
 </body>
 </html>

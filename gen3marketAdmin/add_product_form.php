@@ -25,13 +25,13 @@ $statement->closeCursor();
 
 <!-- the head section -->
 <head>
-    <title>FoodBank</title>
+    <title>Gen3market</title>
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
 </head>
 
 <!-- the body section -->
 <body>
-<header><h1>FoodBank Manager</h1></header>
+<header><h1>Gen3market Manager</h1></header>
 <div id="logo">
     <img id="fb" src="../images/foodbank.png">
 </div>
@@ -75,7 +75,7 @@ $statement->closeCursor();
 </main>
 
 <footer>
-    <p>&copy; <?php echo date("Y"); ?> FoodBank</p>
+    <p>&copy; <?php echo date("Y"); ?> Gen3market</p>
 </footer>
 </body>
 </html>

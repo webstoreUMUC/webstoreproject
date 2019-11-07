@@ -15,13 +15,13 @@
     <title>Order Complete</title>
 </head>
 <body>
-<main>
+<main> 
     <header>Gen3Market</header>
     <div id="logo">
         <img id="fb" src="../images/foodbank.png">
     </div>
     <h1>Success</h1>
-<p>Thank you for using FoodBank. Your order is being processed.</p>
+<p>Thank you for using gen3market. Your order is being processed.</p>
 </main>
 <footer>
     <br><p>&copy; <?php echo date("Y"); ?>Gen3Market</p>

@@ -25,7 +25,7 @@ if ($product_id != false) {
 
 <!-- the head section -->
 <head>
-    <title>FoodBank</title>
+    <title>Gen3market</title>
         <link rel="stylesheet" type="text/css" href="../styles/main.css">
 </head>
 
@@ -35,7 +35,7 @@ if ($product_id != false) {
     <img id="fb" src="../images/foodbank.png">
 </div>
 
-<header><h1>FoodBank Product Manager</h1></header>
+<header><h1>Gen3market Product Manager</h1></header>
 
 <main>
     <h1>Edit Product</h1>
@@ -70,7 +70,7 @@ if ($product_id != false) {
 </main>
 
 <footer>
-    <br><p>&copy; <?php echo date("Y"); ?> FoodBank </p>
+    <br><p>&copy; <?php echo date("Y"); ?> Gen3market </p>
 </footer>
 </body>
 </html>
