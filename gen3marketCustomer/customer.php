@@ -37,7 +37,7 @@ $statement1->closeCursor();
 <html>
 <!-- the head section -->
 <head>
-    <title>FoodBank</title>
+    <title>Gen3Market</title>
     <link rel="stylesheet" type="text/css" href="../styles/main.css"/>
     <!--No Css Applied Yet -->
 </head>
@@ -45,7 +45,7 @@ $statement1->closeCursor();
 <!-- the body section -->
 <body>
 <main>
-    <header><h1>FoodBank - Place An Order</h1></header>
+    <header><h1>Gen3Market - Place An Order</h1></header>
     <div id="logo">
         <img id="fb" src="../images/foodbank.png">
     </div>
@@ -104,7 +104,7 @@ $statement1->closeCursor();
     </section>
 </main>
 <footer>
-    <p>&copy; <?php echo date("Y"); ?> FoodBank</p>
+    <p>&copy; <?php echo date("Y"); ?> Gen3Market</p>
 </footer>
 </body>
 </html>

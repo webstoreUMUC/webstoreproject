@@ -1,9 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: vanessa
- * Date: 5/9/17
- * Time: 6:58 AM
+
  */
 ?>
 <!doctype html>
@@ -19,7 +16,7 @@
 </head>
 <body>
 <main>
-    <header>FoodBank</header>
+    <header>Gen3Market</header>
     <div id="logo">
         <img id="fb" src="../images/foodbank.png">
     </div>
@@ -27,7 +24,7 @@
 <p>Thank you for using FoodBank. Your order is being processed.</p>
 </main>
 <footer>
-    <br><p>&copy; <?php echo date("Y"); ?> FoodBank</p>
+    <br><p>&copy; <?php echo date("Y"); ?>Gen3Market</p>
 </footer>
 </body>
 </html>

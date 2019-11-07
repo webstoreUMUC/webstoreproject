@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/main.css">
-    <title>FoodBank</title>
+    <title>Gen3Market</title>
 </head>
 <body>
 <main>
-    <header><h1>FoodBank</h1></header>
+    <header><h1>Gen3Market</h1></header>
     <div id="logo">
         <img id="fb" src="images/foodbank.png">
     </div>
     <h1>Menu</h1>
     <ul>
         <li>
-            <a href="foodBankAdmin">FoodBank Admin</a>
+            <a href="gen3marketAdmin">FoodBank Admin</a>
         </li>
         <li>
-            <a href="foodBankCustomer">FoodBank Customer</a>
+            <a href="gen3marketCustomer">FoodBank Customer</a>
         </li>
     </ul>
 </main>

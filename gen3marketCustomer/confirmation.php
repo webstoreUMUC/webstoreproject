@@ -1,9 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: vanessa
- * Date: 5/8/17
- * Time: 4:41 PM
+ 
 */
 
 require_once('../database.php');
@@ -24,7 +21,7 @@ require_once('../database.php');
 </head>
 <body>
 <main>
-    <header>FoodBank</header>
+    <header>Gen3Market</header>
     <div id="logo">
         <img id="fb" src="../images/foodbank.png">
     </div>
@@ -34,7 +31,7 @@ require_once('../database.php');
 <p><a href="success.php">Submit Order</a></p>
 </main>
 <footer>
-    <br><p>&copy; <?php echo date("Y"); ?> FoodBank</p>
+    <br><p>&copy; <?php echo date("Y"); ?> Gen3Market</p>
 </footer>
 
 </body>

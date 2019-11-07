@@ -1,8 +1,8 @@
 <?php
 
 $dsn = 'mysql:host=localhost;dbname=foodbank'; // data source name
-$username = 'root';
-$password = 'root';
+$username = '';
+$password = '';
 
 // handling exceptions with try/catch
 try {

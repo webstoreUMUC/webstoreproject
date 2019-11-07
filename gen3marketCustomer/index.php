@@ -8,12 +8,12 @@ require_once('../database.php');
 <!doctype html>
 <html>
 <head>
-    <title>Food Bank</title>
+    <title>Gen3Market</title>
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
     <!--No Css Applied Yet -->
 </head>
 <body>
-<header><h1>FoodBank - Place An Order</h1></header>
+<header><h1>Gen3Market - Place An Order</h1></header>
 <div id="logo">
     <img id="fb" src="../images/foodbank.png">
 </div>
@@ -41,7 +41,7 @@ require_once('../database.php');
     <br>
 </main>
 <footer>
-    <br><p>&copy; <?php echo date("Y"); ?> FoodBank</p>
+    <br><p>&copy; <?php echo date("Y"); ?> Gen3Market</p>
 </footer>
 
 </body>
