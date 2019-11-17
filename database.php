@@ -1,15 +1,11 @@
 <?php
-
-$dsn = 'mysql:host=www.gen3market.com;dbname="gen3market"'; // data source name
-$username = '';
-$password = '';
-
-// handling exceptions with try/catch
-try {
-    $db = new PDO($dsn, $username, $password);
-    # echo '<p>You are connected to the user_inf database</p>';
-} catch (PDOException $e) {
-    $error_message = $e->getMessage(); // $object->method(arguments) syntax for executing a method
-    include('db_error.php');
-    exit();
-}
+$host="50.87.144.48";
+$port=3306;
+$socket="";
+$user="sparrow1_sparrow";
+$password="h@k3d1776";
+$dbname="sparrow1_gen3market";
+$con = new mysqli($host, $user, $password, $dbname, $port, $socket)
+	or die ('Could not connect to the database server' . mysqli_connect_error());
+//$con->close();
+?>
