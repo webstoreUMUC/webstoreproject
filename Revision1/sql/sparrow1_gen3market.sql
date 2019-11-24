@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS sparrow1_gen3market;
+CREATE DATABASE IF NOT EXISTS gen3marketproducts;
 
-USE sparrow1_gen3market;
+USE gen3marketproducts;
 
 CREATE TABLE IF NOT EXISTS 	clothes (
   productID int(3) NOT NULL,
