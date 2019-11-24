@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS database;
+CREATE DATABASE IF NOT EXISTS gen3products;
 
-USE database;
+USE gen3products;
 
 CREATE TABLE IF NOT EXISTS 	clothes (
   productID int(3) NOT NULL,
