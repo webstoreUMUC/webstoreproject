@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
 		$email = $_POST['email'];
 		$password = $_POST['password'];
 		// mysqli_connect() function opens a new connection to the MySQL server.
-		$conn = mysqli_connect("localhost", "sparrow_grouplo", "Passw0rd123", "sparrow1_gen3market");
+		$conn = mysqli_connect("localhost", "sparrow1_grouplo", "Passw0rd123", "sparrow1_gen3market");
 		// SQL query to fetch information of registerd users and finds user match.
 		$query = "SELECT email, password from customer where email=? AND password=? LIMIT 1";
 		// To protect MySQL injection for Security purpose
