@@ -1,12 +1,12 @@
 <?php
 
 // mysqli_connect() function opens a new connection to the MySQL server.
-$conn = mysqli_connect("localhost", "sparrow1_grouplo", "Passw0rd123", "sparrow1_gen3market");
+$conn = new mysqli("localhost", "sparrow1_grouplo", "Passw0rd123", "sparrow1_gen3market");
 
 session_start();// Starting Session
 
 // Storing Session
-$user_check = $_SESSION['login_user'];
+$user_check = $_SESSION['user'];
 
 // SQL Query To Fetch Complete Information Of User
 $query = "SELECT email from customer where email = '$user_check'";

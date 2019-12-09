@@ -1,35 +1,11 @@
 <?php
+
 session_start();
-require_once('database.php');
 
-
-/* Insert user data into database*/
-$first_name = filter_input(INPUT_POST, 'first_name');
-$last_name = filter_input(INPUT_POST, 'last_name');
-$city = filter_input(INPUT_POST, 'city');
-$states = filter_input(INPUT_POST, 'state');
-$zipcode = filter_input(INPUT_POST, 'zipcode');
-$phone_number = filter_input(INPUT_POST, 'phone_number');
-$email = filter_input(INPUT_POST, 'email');
-$password = filter_input(INPUT_POST, 'password');
-$confirm = filter_input(INPUT_POST, 'confirm_password');
-
-//phone number must be 10-digits
-if ($first_name == NULL || $last_name == NULL || $city == NULL || $states == NULL || $zipcode == NULL || $phone_number == NULL || strlen($phone_number) != 10 || $email == NULL || $password == NULL || $password != $confirm ){
-    //$error = "Invalid data. Check all fields and try again.";
-	?><script>window.alert("invalid field(s)");</script> <?php
-    include('register.html');
-   
-    die();
-}
-else {
-    header('location: index.php');
-}
-$customerQuery = "insert into customer (first_name, last_name, city, states, zipcode, phone_number , email, password ) values ('$first_name', '$last_name', '$city', '$states', $zipcode, '$phone_number', '$email', '$password')";
-exec($customerQuery);
-$db->exec($customerQuery);
-echo "You have successfully registered $first_name!";
 ?>
+
+
+
 
 <!doctype php>
 <php lang="en">
@@ -172,7 +148,7 @@ echo "You have successfully registered $first_name!";
                         </div>
                     </div>
                     <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a href="water.php">
+                        <a href="soda.php">
                             <img src="assets/img/backgrounds/main_juice_slide.jpeg" class="img-fluid mx-auto d-block" alt="water">
                         </a>
                         <div class="carousel-caption">
@@ -181,7 +157,7 @@ echo "You have successfully registered $first_name!";
                     </div>
                     
                     <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a href="cannedgoods.php">
+                        <a href="canned.php">
                             <img src="assets/img/backgrounds/canned_goods.jpg" class="img-fluid mx-auto d-block" alt="canned goods">
                         </a>
                         <div class="carousel-caption">
@@ -376,6 +352,7 @@ echo "You have successfully registered $first_name!";
             <div class="row">
 
                 <div class="col">
+					<p class="m-0 text-center text-white"><a href = "privacypolicy.html">Privacy policy </a></p>
                     <p>&copy; <?php echo date("Y"); ?> Gen 3 Market </p>
                 </div>
 

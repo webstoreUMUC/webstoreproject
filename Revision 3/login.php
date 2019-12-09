@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
 		$email = $_POST['email'];
 		$password = $_POST['password'];
 		// mysqli_connect() function opens a new connection to the MySQL server.
-		$conn = mysqli_connect("localhost", "root", "", "gen3market");
+		$conn = new mysqli("localhost", "sparrow1_grouplo", "Passw0rd123", "sparrow1_gen3market");
 		// SQL query to fetch information of registerd users and finds user match.
 		$query = "SELECT email, password from customer where email=? AND password=? LIMIT 1";
 		// To protect MySQL injection for Security purpose
@@ -23,13 +23,13 @@ if (isset($_POST['submit'])) {
 		$stmt->bind_result($email, $password);
 		$stmt->store_result();
 		if($stmt->fetch()) { //fetching the contents of the row {
-			$_SESSION['login_user'] = $email; // Initializing Session
-			header("location: index.html");
-			echo $_SESSION['login_user'];
+			$_SESSION['user'] = $email; // Initializing Session
+			header("location: index.php");
+			
 		}
 		else{
 			echo 'Error: invalid email or password';
-			include('log_reg.html');
+			include('log_reg.php');
 		}
 	}
 	mysqli_close($conn);
